@@ -1,0 +1,97 @@
+[
+    {
+        "name": {
+            "fa": "سوهان باقلوایی دلگاتو - 1",
+            "en": "Sohan Baklavai Delgato - 1",
+            "de": "Sohan Baklavai Delgato - 1"
+        },
+        "description": {
+            "fa": "محصول سوهان باقلوایی دلگاتو - 1 از برند دلگاتو.",
+            "en": "Delgato Sohan Baklavai product - 1 from Delgato brand.",
+            "de": "Delgato Sohan Baklavai Produkt – 1 von der Marke Delgato."
+        },
+        "brand": "دلگاتو",
+        "category": "تنقلات و شیرینی‌جات",
+        "images": [
+            "https://raw.githubusercontent.com/amirbemanip/data/main/cleaned/%D8%AF%D9%84%DA%AF%D8%A7%D8%AA%D9%88%20-%20%D8%B3%D9%88%D9%87%D8%A7%D9%86%20%D8%A8%D8%A7%D9%82%D9%84%D9%88%D8%A7%DB%8C%DB%8C%20%D8%AF%D9%84%DA%AF%D8%A7%D8%AA%D9%88%20-%201_clean.png"
+        ],
+        "is_perishable": false,
+        "duplicates": []
+    },
+    {
+        "name": {
+            "fa": "Gewürz Kandis Sticks - Saharkhiz - 1",
+            "en": "Spice Kandis Sticks - Saharkhiz - 1",
+            "de": "Gewürz Kandis Sticks - Saharkhiz - 1"
+        },
+        "description": {
+            "fa": "محصول Gewürz Kandis Sticks - Saharkhiz - 1 از برند متفرقه.",
+            "en": "Gewürz Kandis Sticks - Saharkhiz - 1 product from various brands.",
+            "de": "Gewürz Kandis Sticks - Saharkhiz - 1 Produkt verschiedener Marken."
+        },
+        "brand": "متفرقه",
+        "category": "سایر موارد",
+        "images": [
+            "https://raw.githubusercontent.com/amirbemanip/data/main/cleaned/%D9%85%D8%AA%D9%81%D8%B1%D9%82%D9%87%20-%20Gew%C3%BCrz%20Kandis%20Sticks%20-%20Saharkhiz%20-%201_clean.png"
+        ],
+        "is_perishable": false,
+        "duplicates": []
+    },
+    {
+        "name": {
+            "fa": "جعبه پذیرایی چای کیسه ای - سحرخیز - 1",
+            "en": "Tea bag reception box - Saharkhiz - 1",
+            "de": "Teebeutel-Empfangsbox - Saharkhiz - 1"
+        },
+        "description": {
+            "fa": "محصول جعبه پذیرایی چای کیسه ای - سحرخیز - 1 از برند متفرقه.",
+            "en": "Saharkhaiz tea bag serving box product - 1 from different brands.",
+            "de": "Saharkhaiz Teebeutel-Servierbox-Produkt – 1 von verschiedenen Marken."
+        },
+        "brand": "متفرقه",
+        "category": "چای و دمنوش",
+        "images": [
+            "https://raw.githubusercontent.com/amirbemanip/data/main/cleaned/%D9%85%D8%AA%D9%81%D8%B1%D9%82%D9%87%20-%20%D8%AC%D8%B9%D8%A8%D9%87%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%A7%DB%8C%DB%8C%20%DA%86%D8%A7%DB%8C%20%DA%A9%DB%8C%D8%B3%D9%87%20%D8%A7%DB%8C%20-%20%D8%B3%D8%AD%D8%B1%D8%AE%DB%8C%D8%B2%20-%201_clean.png"
+        ],
+        "is_perishable": false,
+        "duplicates": []
+    },
+    {
+        "name": {
+            "fa": "جبعه هدیه گل زعفران و نبات چوبی - 1",
+            "en": "Gift box of saffron flowers and lollipops - 1",
+            "de": "Geschenkbox mit Safranblüten und Lutschern – 1"
+        },
+        "description": {
+            "fa": "محصول جبعه هدیه گل زعفران و نبات چوبی - 1 از برند متفرقه.",
+            "en": "Saffron flower and lollipop gift box product - 1 from different brands.",
+            "de": "Safranblüten- und Lutscher-Geschenkbox-Produkt – 1 von verschiedenen Marken."
+        },
+        "brand": "متفرقه",
+        "category": "تنقلات و شیرینی‌جات",
+        "images": [
+            "https://raw.githubusercontent.com/amirbemanip/data/main/cleaned/%D9%85%D8%AA%D9%81%D8%B1%D9%82%D9%87%20-%20%D8%AC%D8%A8%D8%B9%D9%87%20%D9%87%D8%AF%DB%8C%D9%87%20%DA%AF%D9%84%20%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86%20%D9%88%20%D9%86%D8%A8%D8%A7%D8%AA%20%DA%86%D9%88%D8%A8%DB%8C%20-%201_clean.png"
+        ],
+        "is_perishable": false,
+        "duplicates": []
+    },
+    {
+        "name": {
+            "fa": "Khatam Gaz Kermani mit 28% Pistazien - 1",
+            "en": "Khatam Gaz Kermani with 28% Pistazien - 1",
+            "de": "Khatam Gaj Karmani Mit 28% Pistajiyan - 1"
+        },
+        "description": {
+            "fa": "محصول Khatam Gaz Kermani mit 28% Pistazien - 1 از برند متفرقه.",
+            "en": "Khatam Gaz Kermani mit 28% Pistazien product - 1 from various brands.",
+            "de": "Khatam Gaz Kermani mit 28 % Pistazienprodukt – 1 von verschiedenen Marken."
+        },
+        "brand": "متفرقه",
+        "category": "سایر موارد",
+        "images": [
+            "https://raw.githubusercontent.com/amirbemanip/data/main/cleaned/%D9%85%D8%AA%D9%81%D8%B1%D9%82%D9%87%20-%20Khatam%20Gaz%20Kermani%20mit%2028%25%20Pistazien%20-%201_clean.png"
+        ],
+        "is_perishable": false,
+        "duplicates": []
+    }
+]
