@@ -2,6 +2,8 @@ import json
 import os
 import time
 from thefuzz import process
+from googletrans import Translator
+import urllib.parse
 
 def analyze_products():
     """
@@ -27,6 +29,20 @@ def get_image_files():
     except FileNotFoundError:
         print("Error: 'cleaned' directory not found.")
         return []
+
+def translate_with_retry(translator, text, dest_lang, retries=3, delay=2):
+    """Translates text with a retry mechanism."""
+    for attempt in range(retries):
+        try:
+            # Re-initialize the translator for stability with some versions
+            translator = Translator()
+            return translator.translate(text, dest=dest_lang).text
+        except Exception as e:
+            print(f"Translation attempt {attempt + 1} failed for '{text[:20]}...': {e}")
+            if attempt < retries - 1:
+                time.sleep(delay)
+            else:
+                return f"Translation failed after {retries} attempts."
 
 def get_corrected_products(products, image_files):
     corrected_products = []
@@ -73,28 +89,49 @@ def main():
     corrected_products = get_corrected_products(products, image_files)
     product_groups = group_products(corrected_products)
 
-    for group_name, items in product_groups.items():
-        main_item = items[0]
+    base_url = "https://raw.githubusercontent.com/amirbemanip/data/main/cleaned/"
+    translator = Translator()
 
-        name_fa = main_item['new_name_fa']
-        brand = main_item['new_brand']
-        desc_fa = f"محصول {name_fa} از برند {brand}."
+    all_groups = list(product_groups.items())
+    batch_size = 10
 
-        image_url = f"/images/cleaned/{main_item['image_file']}" if main_item['image_file'] else ""
-        duplicates = [item['original_product']['name'] for item in items[1:]]
+    for i in range(0, len(all_groups), batch_size):
+        batch = all_groups[i:i+batch_size]
+        print(f"Processing batch {i//batch_size + 1}...")
+        for group_name, items in batch:
+            main_item = items[0]
 
-        final_product = {
-            "name": name_fa,
-            "description": desc_fa,
-            "brand": brand,
-            "category": main_item['original_product'].get('category', ""),
-            "images": [image_url],
-            "is_perishable": main_item['original_product'].get('is_perishable', False),
-            "duplicates": duplicates
-        }
-        final_products.append(final_product)
+            name_fa = main_item['new_name_fa']
+            brand = main_item['new_brand']
+            desc_fa = f"محصول {name_fa} از برند {brand}."
 
-    # Write the final JSON data to a file
+            # Perform translations
+            name_en = translate_with_retry(translator, name_fa, 'en')
+            name_de = translate_with_retry(translator, name_fa, 'de')
+            desc_en = translate_with_retry(translator, desc_fa, 'en')
+            desc_de = translate_with_retry(translator, desc_fa, 'de')
+
+            image_url = ""
+            if main_item['image_file']:
+                encoded_filename = urllib.parse.quote(main_item['image_file'])
+                image_url = f"{base_url}{encoded_filename}"
+
+            duplicates = [item['original_product']['name'] for item in items[1:]]
+
+            final_product = {
+                "name": {"fa": name_fa, "en": name_en, "de": name_de},
+                "description": {"fa": desc_fa, "en": desc_en, "de": desc_de},
+                "brand": brand,
+                "category": main_item['original_product'].get('category', ""),
+                "images": [image_url],
+                "is_perishable": main_item['original_product'].get('is_perishable', False),
+                "duplicates": duplicates
+            }
+            final_products.append(final_product)
+
+        # Pause between batches to avoid overwhelming the service
+        time.sleep(5)
+
     output_filename = 'products_cleaned.json'
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(final_products, f, indent=4, ensure_ascii=False)
