@@ -1,0 +1,347 @@
+2025-10-22 23:24:23,017 [INFO] Found 1771 images in 'product_images'
+2025-10-22 23:24:23,022 [INFO] Starting processing with 1 workers — total 1771
+2025-10-22 23:24:23,204 [WARNING] Local rembg failed for آبعلی - 1500ml دوغ آبعلی ساده - 1.jpg: rembg not installed
+2025-10-22 23:24:23,204 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:23,217 [WARNING] Local rembg failed for آبعلی - 1500ml دوغ آبعلی نعناع - 1.jpg: rembg not installed
+2025-10-22 23:24:23,218 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:23,252 [WARNING] Local rembg failed for آبعلی - 500ml دوغ آبعلی ساده - 1.jpg: rembg not installed
+2025-10-22 23:24:23,253 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:23,285 [WARNING] Local rembg failed for آبعلی - 500ml دوغ آبعلی نعناع - 1.jpg: rembg not installed
+2025-10-22 23:24:23,285 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:23,620 [WARNING] Local rembg failed for آبعلی - کشک آبعلی 230 گرم - 1.jpg: rembg not installed
+2025-10-22 23:24:23,621 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,018 [WARNING] Local rembg failed for آبعلی - کشک آبعلی 630 گرم - 1.jpg: rembg not installed
+2025-10-22 23:24:24,019 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,058 [WARNING] Local rembg failed for احمد - 200g چای احمد تی بگ انگلیسی - 1.jpg: rembg not installed
+2025-10-22 23:24:24,058 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,076 [WARNING] Local rembg failed for احمد - 200g چای احمد تی بگ ساده - 1.jpg: rembg not installed
+2025-10-22 23:24:24,077 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,100 [WARNING] Local rembg failed for احمد - 200g چای احمد تی بگ سبز - 1.jpg: rembg not installed
+2025-10-22 23:24:24,102 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,129 [WARNING] Local rembg failed for احمد - 200g چای احمد تی بگ عطری - 1.jpg: rembg not installed
+2025-10-22 23:24:24,129 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,151 [WARNING] Local rembg failed for احمد - 200g چای احمد تی بگ عطری اشپتسیال - 1.jpg: rembg not installed
+2025-10-22 23:24:24,152 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,226 [WARNING] Local rembg failed for احمد - 200g چای احمد تی بگ هل - 1.jpg: rembg not installed
+2025-10-22 23:24:24,227 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,254 [WARNING] Local rembg failed for احمد - 500g چای احمد ساده - 1.jpg: rembg not installed
+2025-10-22 23:24:24,255 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:24:24,327 [WARNING] Local rembg failed for احمد - 500g چای احمد سبز - 1.jpg: rembg not installed
+2025-10-22 23:24:24,328 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:08,328 [WARNING] Local rembg failed for احمد - 500g چای احمد عطری - 1.jpg: rembg not installed
+2025-10-22 23:25:08,328 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:08,349 [WARNING] Local rembg failed for احمد - 500g چای احمد عطری اشپتسیال - 1.jpg: rembg not installed
+2025-10-22 23:25:08,349 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:08,371 [WARNING] Local rembg failed for احمد - 500g چای احمد هل - 1.jpg: rembg not installed
+2025-10-22 23:25:08,372 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:08,504 [WARNING] Local rembg failed for احمد - پسته زعفرانی احمد آقایی 10کیلو - 1.jpg: rembg not installed
+2025-10-22 23:25:08,504 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:10,038 [WARNING] Local rembg failed for احمد - چای سبز احمد - 1.jpg: rembg not installed
+2025-10-22 23:25:10,039 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:10,839 [WARNING] Local rembg failed for احمد - چای سیاه احمد با هل - 1.jpg: rembg not installed
+2025-10-22 23:25:10,840 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:10,858 [WARNING] Local rembg failed for الوند - 1500ml دوغ الوند - 1.jpg: rembg not installed
+2025-10-22 23:25:10,858 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:10,876 [WARNING] Local rembg failed for الوند - 500ml دوغ الوند - 1.jpg: rembg not installed
+2025-10-22 23:25:10,877 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:11,279 [WARNING] Local rembg failed for اکبر مشتی - بستنی سنتی اکبر مشتی 450 گرم - 1.png: rembg not installed
+2025-10-22 23:25:12,208 [WARNING] Local rembg failed for اکبر مشتی - بستنی سنتی اکبر مشتی 900 گرم - 1.png: rembg not installed
+2025-10-22 23:25:12,981 [WARNING] Local rembg failed for اکبر مشتی - فالوده اکبر مشتی 450 گرم - 1.png: rembg not installed
+2025-10-22 23:25:13,234 [WARNING] Local rembg failed for بدر - 700g ترشی بدرنازخاتون - 1.jpg: rembg not installed
+2025-10-22 23:25:13,235 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:13,261 [WARNING] Local rembg failed for بدر - ترشی بادمجان بدر با زیتون 700 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:13,262 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:21,906 [WARNING] Local rembg failed for بدر - زیتون پرورده بدر - 1.jpg: rembg not installed
+2025-10-22 23:25:21,907 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:22,013 [WARNING] Local rembg failed for برتر - پرک سوخاری اسپایسی برتر 250 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:22,014 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:22,149 [WARNING] Local rembg failed for برتر - پرک سوخاری طلایی برتر 250 گرم - 1.png: rembg not installed
+2025-10-22 23:25:22,404 [WARNING] Local rembg failed for برتر - پودر کوکو سیب زمینی برتر 200 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:22,405 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:22,533 [WARNING] Local rembg failed for برتر - پودر کیک زعفرانی برتر 450 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:22,534 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:22,573 [WARNING] Local rembg failed for ترشین - 80g لواشک ترشین آلبالو - 1.jpg: rembg not installed
+2025-10-22 23:25:22,575 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:22,615 [WARNING] Local rembg failed for ترشین - 80g لواشک ترشین آلو - 1.jpg: rembg not installed
+2025-10-22 23:25:22,616 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:22,645 [WARNING] Local rembg failed for ترشین - 80g لواشک ترشین انار - 1.jpg: rembg not installed
+2025-10-22 23:25:22,646 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:22,674 [WARNING] Local rembg failed for ترشین - 80g لواشک ترشین زردآلو - 1.jpg: rembg not installed
+2025-10-22 23:25:22,675 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:22,702 [WARNING] Local rembg failed for ترشین - 80g لواشک ترشین قره قورت - 1.jpg: rembg not installed
+2025-10-22 23:25:22,703 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:26,312 [WARNING] Local rembg failed for تکرم - خرما خشک ویژه تکرم (میکس )، 400 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:26,314 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:26,358 [WARNING] Local rembg failed for خانوم - 300g ادویه آرد نخودچی خانوم - 1.jpg: rembg not installed
+2025-10-22 23:25:26,359 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:26,654 [WARNING] Local rembg failed for خانوم - 40gگل ختمی خانم خانوما - 1.png: rembg not installed
+2025-10-22 23:25:26,807 [WARNING] Local rembg failed for خانوم - 500mlعرق نعناع خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:26,807 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:27,092 [WARNING] Local rembg failed for خانوم - آلبالو وکیوم خانوم 90 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:27,093 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:27,432 [WARNING] Local rembg failed for خانوم - الوچه خمیری خانوم 90گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:27,433 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:27,770 [WARNING] Local rembg failed for خانوم - تمبر آلوچه خانوم 90 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:27,771 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:28,111 [WARNING] Local rembg failed for خانوم - تمبر زغال اخته خانوم 90 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:28,112 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:28,977 [WARNING] Local rembg failed for خانوم - حنا قرمز خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:28,978 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:29,341 [WARNING] Local rembg failed for خانوم - رشته آش خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:29,342 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:29,754 [WARNING] Local rembg failed for خانوم - رشته پلو خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:29,755 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:29,868 [WARNING] Local rembg failed for خانوم - زغال اخته خانوم 230 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:29,869 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:30,562 [WARNING] Local rembg failed for خانوم - سبزی سرخ شده - خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:30,563 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:31,528 [WARNING] Local rembg failed for خانوم - عناب خشک - خانم خانوما - 1.png: rembg not installed
+2025-10-22 23:25:34,969 [WARNING] Local rembg failed for خانوم - غنچه گل رز خانم خانوما 50 گرم - 1.png: rembg not installed
+2025-10-22 23:25:35,770 [WARNING] Local rembg failed for خانوم - غوره غوره خانو خانوما 700 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:35,770 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:36,530 [WARNING] Local rembg failed for خانوم - قرمه سبزی خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:36,531 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:37,509 [WARNING] Local rembg failed for خانوم - قلیه ماهی خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:37,509 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:38,310 [WARNING] Local rembg failed for خانوم - قیمه بادمجان - خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:38,311 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:39,077 [WARNING] Local rembg failed for خانوم - لواشک آلبالو خانوم 90 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:39,078 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:40,270 [WARNING] Local rembg failed for خانوم - لواشک آلوچه خانوم 90 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:40,271 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:43,064 [WARNING] Local rembg failed for خانوم - لواشک انار خانوم 90 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:43,064 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:43,882 [WARNING] Local rembg failed for خانوم - لواشک زرشک خانوم 90 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:43,882 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:44,238 [WARNING] Local rembg failed for خانوم - لواشک مخلوط چند میوه خانوم 90 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:44,240 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:44,913 [WARNING] Local rembg failed for خانوم - لیمو عمانی - خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:44,914 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:45,596 [WARNING] Local rembg failed for خانوم - ماش خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:45,597 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:45,726 [WARNING] Local rembg failed for خانوم - ماش نیمه خانوم 2 کیلوگرم - 1.jpg: rembg not installed
+2025-10-22 23:25:45,727 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:45,888 [WARNING] Local rembg failed for خانوم - پر خشک گل رز خانم خانوما 25 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:45,889 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:46,940 [WARNING] Local rembg failed for خانوم - چای سبز فانتزی خانوم 500 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:46,941 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:47,624 [WARNING] Local rembg failed for خانوم - چای سیاه - خانم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:47,624 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:48,311 [WARNING] Local rembg failed for خانوم - چای معطر فانتزی خانوم 500 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:48,311 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:49,520 [WARNING] Local rembg failed for خانوم - چای هل دار فانتزی خانوم 500 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:49,521 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:49,838 [WARNING] Local rembg failed for خانوم - کنسرو سبزی آش خانوم 450 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:49,839 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:50,244 [WARNING] Local rembg failed for خانوم - کنسرو سبزی پلو خانوم 450 گرم - 1.jpg: rembg not installed
+2025-10-22 23:25:50,245 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:52,251 [WARNING] Local rembg failed for خانوم خانوما - 1000ml گلاب خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:52,251 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:52,395 [WARNING] Local rembg failed for خانوم خانوما - 100g ادویه خانوم خانوما اورگانو - 1.jpg: rembg not installed
+2025-10-22 23:25:52,396 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:52,423 [WARNING] Local rembg failed for خانوم خانوما - 100g ادویه خانوم خانوما کاری - 1.jpg: rembg not installed
+2025-10-22 23:25:52,423 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:52,447 [WARNING] Local rembg failed for خانوم خانوما - 100g ویژه خانوم خانوما خلال نارنج - 1.jpg: rembg not installed
+2025-10-22 23:25:52,448 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:52,484 [WARNING] Local rembg failed for خانوم خانوما - 150g ویژه خانوم خانوما موسیر خشک - 1.jpg: rembg not installed
+2025-10-22 23:25:52,485 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:52,539 [WARNING] Local rembg failed for خانوم خانوما - 150g ویژه خانوم خانوما پسته اکبری - 1.jpg: rembg not installed
+2025-10-22 23:25:52,540 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:55,037 [WARNING] Local rembg failed for خانوم خانوما - 15g ادویه خانوم خانوما گل گاو زبان - 1.png: rembg not installed
+2025-10-22 23:25:55,422 [WARNING] Local rembg failed for خانوم خانوما - 1800g G2خیارشورخانوم خانوما ممتاز - 1.jpg: rembg not installed
+2025-10-22 23:25:55,423 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:55,451 [WARNING] Local rembg failed for خانوم خانوما - 1kg کنسروخانوم خانوما روغن - 1.jpg: rembg not installed
+2025-10-22 23:25:55,451 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:55,488 [WARNING] Local rembg failed for خانوم خانوما - 200g ویژه خانوم خانوما تخمه ژاپنی - 1.jpg: rembg not installed
+2025-10-22 23:25:55,489 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:55,711 [WARNING] Local rembg failed for خانوم خانوما - 200g ویژه خانوم خانوما تخمه کدومشهدی - 1.jpg: rembg not installed
+2025-10-22 23:25:55,713 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:56,704 [WARNING] Local rembg failed for خانوم خانوما - 200g ویژه خانوم خانوما مغز بادام شور - 1.jpg: rembg not installed
+2025-10-22 23:25:56,705 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:58,059 [WARNING] Local rembg failed for خانوم خانوما - 230g لواشک سیبی خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:58,060 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:59,659 [WARNING] Local rembg failed for خانوم خانوما - 250g رب انارخانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:25:59,660 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:59,704 [WARNING] Local rembg failed for خانوم خانوما - 250g ویژه خانوم خانوما نخودچی بی‌ نمک - 1.jpg: rembg not installed
+2025-10-22 23:25:59,705 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:25:59,998 [WARNING] Local rembg failed for خانوم خانوما - 295g خانوم خانوما مربا آلبالو - 1.jpg: rembg not installed
+2025-10-22 23:25:59,999 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,024 [WARNING] Local rembg failed for خانوم خانوما - 300g عسل خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:00,025 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,175 [WARNING] Local rembg failed for خانوم خانوما - 300g ویژه خانوم خانوما قند شکسته پاکتی - 1.jpg: rembg not installed
+2025-10-22 23:26:00,176 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,358 [WARNING] Local rembg failed for خانوم خانوما - 300g ویژه خانوم خانوما کشمش سبز - 1.jpg: rembg not installed
+2025-10-22 23:26:00,358 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,389 [WARNING] Local rembg failed for خانوم خانوما - 300gلواشک شکلاتی خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:00,390 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,452 [WARNING] Local rembg failed for خانوم خانوما - 30g ادویه خانوم خانوما هل - 1.jpg: rembg not installed
+2025-10-22 23:26:00,452 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,494 [WARNING] Local rembg failed for خانوم خانوما - 350g ویژه خانوم خانوما مویز - 1.jpg: rembg not installed
+2025-10-22 23:26:00,495 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,618 [WARNING] Local rembg failed for خانوم خانوما - 400g قند شکسته خانوم خانوما جعبه ای - 1.jpeg: rembg not installed
+2025-10-22 23:26:00,619 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,663 [WARNING] Local rembg failed for خانوم خانوما - 400g ویژه خانوم خانوما کشمش پلو - 1.jpg: rembg not installed
+2025-10-22 23:26:00,664 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,707 [WARNING] Local rembg failed for خانوم خانوما - 400gبادام دایکندی خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:00,708 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,739 [WARNING] Local rembg failed for خانوم خانوما - 400ml عرق بیدمشک خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:00,740 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:00,780 [WARNING] Local rembg failed for خانوم خانوما - 400ml عرق نعناع خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:00,781 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:01,105 [WARNING] Local rembg failed for خانوم خانوما - 400ml گلاب خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:01,106 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:01,135 [WARNING] Local rembg failed for خانوم خانوما - 450g نان قندی خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:01,135 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:01,162 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما آش رشته - 1.jpg: rembg not installed
+2025-10-22 23:26:01,162 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:01,564 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما بادمجان سرخ شده - 1.jpg: rembg not installed
+2025-10-22 23:26:01,565 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:01,599 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما بامیه - 1.jpg: rembg not installed
+2025-10-22 23:26:01,600 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:01,929 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما حلیم - 1.jpg: rembg not installed
+2025-10-22 23:26:01,929 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:02,278 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما سبزی سرخ شده - 1.jpg: rembg not installed
+2025-10-22 23:26:02,278 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:02,303 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما فسنجان - 1.jpg: rembg not installed
+2025-10-22 23:26:02,304 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:02,318 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما قلیه ماهی - 1.jpg: rembg not installed
+2025-10-22 23:26:02,318 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:02,341 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما قورمه سبزی - 1.jpg: rembg not installed
+2025-10-22 23:26:02,341 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:02,663 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما قیمه بادمجان - 1.jpg: rembg not installed
+2025-10-22 23:26:02,664 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:03,160 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما قیمه سیب زمینی - 1.jpg: rembg not installed
+2025-10-22 23:26:03,161 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:03,185 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما لوبیا - 1.jpg: rembg not installed
+2025-10-22 23:26:03,185 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:03,601 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما میرزا قاسمی - 1.jpg: rembg not installed
+2025-10-22 23:26:03,602 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:03,620 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما نعناع جعفری - 1.jpg: rembg not installed
+2025-10-22 23:26:03,621 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:03,639 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما کرفس - 1.jpg: rembg not installed
+2025-10-22 23:26:03,640 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,036 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما کشک بادمجان - 1.jpg: rembg not installed
+2025-10-22 23:26:04,036 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,055 [WARNING] Local rembg failed for خانوم خانوما - 450g کنسروخانوم خانوما کوکو سبزی - 1.jpg: rembg not installed
+2025-10-22 23:26:04,056 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,093 [WARNING] Local rembg failed for خانوم خانوما - 450gنخودچی بریانی خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:04,094 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,158 [WARNING] Local rembg failed for خانوم خانوما - 500g چای خانوم خانوما فانتزی - 1.jpg: rembg not installed
+2025-10-22 23:26:04,159 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,181 [WARNING] Local rembg failed for خانوم خانوما - 500g کنسروخانوم خانوما روغن - 1.jpg: rembg not installed
+2025-10-22 23:26:04,182 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,254 [WARNING] Local rembg failed for خانوم خانوما - 500gجو پرک خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:04,255 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,326 [WARNING] Local rembg failed for خانوم خانوما - 500gچای خانوم خانوما سبز - 1.jpg: rembg not installed
+2025-10-22 23:26:04,326 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,360 [WARNING] Local rembg failed for خانوم خانوما - 500gچای خانوم خانوما سیلان - 1.jpg: rembg not installed
+2025-10-22 23:26:04,361 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,400 [WARNING] Local rembg failed for خانوم خانوما - 500gچای خانوم خانوما معطر - 1.jpg: rembg not installed
+2025-10-22 23:26:04,400 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,631 [WARNING] Local rembg failed for خانوم خانوما - 500ml شربت سکنجبین خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:04,631 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,651 [WARNING] Local rembg failed for خانوم خانوما - 600ml آبلیمو خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:04,651 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,676 [WARNING] Local rembg failed for خانوم خانوما - 700g G0خیارشورخانوم خانوما سوپر - 1.jpg: rembg not installed
+2025-10-22 23:26:04,676 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,700 [WARNING] Local rembg failed for خانوم خانوما - 700g G1خیارشورخانوم خانوما ویژه - 1.jpg: rembg not installed
+2025-10-22 23:26:04,701 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:04,722 [WARNING] Local rembg failed for خانوم خانوما - 700g G2خیارشورخانوم خانوما ممتاز - 1.jpg: rembg not installed
+2025-10-22 23:26:04,723 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:05,701 [WARNING] Local rembg failed for خانوم خانوما - 700g برگ مو خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:05,702 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:06,169 [WARNING] Local rembg failed for خانوم خانوما - 700g ترشی بادمجان خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:06,170 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:06,536 [WARNING] Local rembg failed for خانوم خانوما - 700g ترشی خانوم خانوما سیر سیاه - 1.jpg: rembg not installed
+2025-10-22 23:26:06,536 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:06,859 [WARNING] Local rembg failed for خانوم خانوما - 700g ترشی خانوم خانوما سیرسفید - 1.jpg: rembg not installed
+2025-10-22 23:26:06,859 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:06,880 [WARNING] Local rembg failed for خانوم خانوما - 700g ترشی خانوم خانوما لیته - 1.jpg: rembg not installed
+2025-10-22 23:26:06,880 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:06,900 [WARNING] Local rembg failed for خانوم خانوما - 700g ترشی خانوم خانوما مخلوط درشت - 1.jpg: rembg not installed
+2025-10-22 23:26:06,901 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:06,921 [WARNING] Local rembg failed for خانوم خانوما - 700g ترشی خانوم خانوما مخلوط ریز - 1.jpg: rembg not installed
+2025-10-22 23:26:06,922 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:07,281 [WARNING] Local rembg failed for خانوم خانوما - 700g ترشی خانوم خانوما موسیر - 1.jpg: rembg not installed
+2025-10-22 23:26:07,282 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:07,306 [WARNING] Local rembg failed for خانوم خانوما - 700g رب گوجه خانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:07,306 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:26:10,441 [WARNING] Local rembg failed for خانوم خانوما - 700g شورخانوم خانوما - 1.jpg: rembg not installed
+2025-10-22 23:26:10,448 [ERROR] Worker exception: cannot write mode RGBA as JPEG
+2025-10-22 23:40:29,336 [ERROR] rembg package not found.
+2025-10-22 23:40:29,340 [ERROR] Please install it with: pip install rembg
+2025-10-22 23:40:29,340 [ERROR] Alternatively, provide a --photo-room-key for remote processing.
+2025-10-22 23:42:59,274 [INFO] Found 1771 images in 'product_images'
+2025-10-22 23:43:01,767 [WARNING] Could not pre-check متفرقه - Auf Lager - 1.png, will proceed to worker: unrecognized data stream contents when reading image file
+2025-10-22 23:43:03,168 [WARNING] Could not pre-check متفرقه - Leider ausverkauft - 1.png, will proceed to worker: broken data stream when reading image file
+2025-10-22 23:43:06,883 [INFO] Skipped 65 images (already have transparency).
+2025-10-22 23:43:06,884 [INFO] Starting processing with 1 workers — total 1706
+2025-10-23 00:10:23,591 [ERROR] Failed to load product_images/متفرقه - Auf Lager - 1.png: unrecognized data stream contents when reading image file
+2025-10-23 00:31:36,094 [ERROR] Failed to load product_images/متفرقه - Leider ausverkauft - 1.png: broken data stream when reading image file
+2025-10-23 01:09:09,296 [INFO] Completed. OK=1704 Review=0 Copied=0 Failed=2
+2025-10-23 01:09:09,317 [INFO] Report saved to cleaned/pro_remover_report.json
+2025-10-23 08:47:20,608 [INFO] Found 1771 images in 'product_images'
+2025-10-23 08:47:29,583 [WARNING] Could not pre-check متفرقه - Auf Lager - 1.png, will proceed to worker: unrecognized data stream contents when reading image file
+2025-10-23 08:47:33,338 [WARNING] Could not pre-check متفرقه - Leider ausverkauft - 1.png, will proceed to worker: broken data stream when reading image file
+2025-10-23 08:47:40,011 [INFO] Skipped 65 images (already have transparency).
+2025-10-23 08:47:40,011 [INFO] Starting processing with 1 workers — total 1706
+2025-10-23 08:52:12,204 [INFO] Found 1771 total images in 'product_images'
+2025-10-23 08:52:14,977 [WARNING] Could not pre-check متفرقه - Auf Lager - 1.png, will proceed to worker: unrecognized data stream contents when reading image file
+2025-10-23 08:52:16,178 [WARNING] Could not pre-check متفرقه - Leider ausverkauft - 1.png, will proceed to worker: broken data stream when reading image file
+2025-10-23 08:52:20,047 [INFO] --------------------------------
+2025-10-23 08:52:20,047 [INFO] Total images found: 1771
+2025-10-23 08:52:20,047 [INFO] Skipped (already transparent): 65
+2025-10-23 08:52:20,048 [INFO] Remaining to process now: 1706
+2025-10-23 08:52:20,048 [INFO] --------------------------------
+2025-10-23 08:52:20,048 [INFO] Starting processing with 1 workers...
+2025-10-23 08:59:09,142 [INFO] Found 1771 total images in 'product_images'
+2025-10-23 08:59:11,950 [WARNING] Could not pre-check متفرقه - Auf Lager - 1.png, will proceed to worker: unrecognized data stream contents when reading image file
+2025-10-23 08:59:13,095 [WARNING] Could not pre-check متفرقه - Leider ausverkauft - 1.png, will proceed to worker: broken data stream when reading image file
+2025-10-23 08:59:16,901 [INFO] --------------------------------
+2025-10-23 08:59:16,901 [INFO] Total images found: 1771
+2025-10-23 08:59:16,902 [INFO] Skipped (already transparent): 65
+2025-10-23 08:59:16,902 [INFO] Skipped (already processed by --resume): 1705
+2025-10-23 08:59:16,902 [INFO] Remaining to process now: 1
+2025-10-23 08:59:16,902 [INFO] --------------------------------
+2025-10-23 08:59:16,902 [INFO] Starting processing with 1 workers...
+2025-10-23 08:59:16,961 [ERROR] Failed to load product_images/متفرقه - Leider ausverkauft - 1.png: broken data stream when reading image file
+2025-10-23 08:59:16,961 [INFO] Completed. OK=0 Review=0 Copied=0 Failed=1
+2025-10-23 08:59:16,964 [INFO] Report saved to cleaned/pro_remover_report.json
+2025-10-23 08:59:43,206 [INFO] Found 1771 total images in 'product_images'
+2025-10-23 08:59:44,665 [WARNING] Could not pre-check متفرقه - Auf Lager - 1.png, will proceed to worker: unrecognized data stream contents when reading image file
+2025-10-23 08:59:46,036 [WARNING] Could not pre-check متفرقه - Leider ausverkauft - 1.png, will proceed to worker: broken data stream when reading image file
+2025-10-23 08:59:48,645 [INFO] --------------------------------
+2025-10-23 08:59:48,645 [INFO] Total images found: 1771
+2025-10-23 08:59:48,645 [INFO] Skipped (already transparent): 65
+2025-10-23 08:59:48,645 [INFO] Skipped (already processed by --resume): 1705
+2025-10-23 08:59:48,645 [INFO] Remaining to process now: 1
+2025-10-23 08:59:48,645 [INFO] --------------------------------
+2025-10-23 08:59:48,645 [INFO] Starting processing with 1 workers...
+2025-10-23 08:59:48,684 [ERROR] Failed to load product_images/متفرقه - Leider ausverkauft - 1.png: broken data stream when reading image file
+2025-10-23 08:59:48,685 [INFO] Completed. OK=0 Review=0 Copied=0 Failed=1
+2025-10-23 08:59:48,685 [INFO] Report saved to cleaned/pro_remover_report.json
+2025-10-23 09:00:05,101 [INFO] Found 1771 total images in 'product_images'
+2025-10-23 09:00:06,648 [WARNING] Could not pre-check متفرقه - Auf Lager - 1.png, will proceed to worker: unrecognized data stream contents when reading image file
+2025-10-23 09:00:07,906 [WARNING] Could not pre-check متفرقه - Leider ausverkauft - 1.png, will proceed to worker: broken data stream when reading image file
+2025-10-23 09:00:10,538 [INFO] --------------------------------
+2025-10-23 09:00:10,538 [INFO] Total images found: 1771
+2025-10-23 09:00:10,538 [INFO] Skipped (already transparent): 65
+2025-10-23 09:00:10,538 [INFO] Skipped (already processed by --resume): 1705
+2025-10-23 09:00:10,538 [INFO] Remaining to process now: 1
+2025-10-23 09:00:10,538 [INFO] --------------------------------
+2025-10-23 09:00:10,538 [INFO] Starting processing with 1 workers...
+2025-10-23 09:00:10,577 [ERROR] Failed to load product_images/متفرقه - Leider ausverkauft - 1.png: broken data stream when reading image file
+2025-10-23 09:00:10,577 [INFO] Completed. OK=0 Review=0 Copied=0 Failed=1
+2025-10-23 09:00:10,578 [INFO] Report saved to cleaned/pro_remover_report.json
+2025-10-23 09:03:27,634 [INFO] Found 1771 total images in 'product_images'
+2025-10-23 09:03:35,955 [WARNING] Could not pre-check متفرقه - Leider ausverkauft - 1.png, will proceed to worker: broken data stream when reading image file
+2025-10-23 09:03:43,901 [INFO] --------------------------------
+2025-10-23 09:03:43,901 [INFO] Total images found: 1771
+2025-10-23 09:03:43,901 [INFO] Copied (already transparent): 62
+2025-10-23 09:03:43,901 [INFO] Skipped (already processed by --resume): 1708
+2025-10-23 09:03:43,902 [INFO] Remaining to process now: 1
+2025-10-23 09:03:43,902 [INFO] --------------------------------
+2025-10-23 09:03:43,902 [INFO] Starting processing with 1 workers...
+2025-10-23 09:03:43,940 [ERROR] Failed to load product_images/متفرقه - Leider ausverkauft - 1.png: broken data stream when reading image file
+2025-10-23 09:03:43,941 [INFO] Completed. OK=0 Review=0 Copied=0 Failed=1
+2025-10-23 09:03:43,941 [INFO] Report saved to cleaned/pro_remover_report.json
