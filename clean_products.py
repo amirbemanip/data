@@ -1,4 +1,8 @@
 import json
+import os
+import time
+from thefuzz import process
+from googletrans import Translator
 
 def analyze_products():
     """
@@ -7,7 +11,6 @@ def analyze_products():
     try:
         with open('products_master.json', 'r', encoding='utf-8') as f:
             products = json.load(f)
-
         print(f"Successfully loaded {len(products)} products from products_master.json")
         return products
     except FileNotFoundError:
@@ -16,10 +19,6 @@ def analyze_products():
     except json.JSONDecodeError:
         print("Error: Could not decode JSON from products_master.json.")
         return None
-
-import os
-from thefuzz import process
-from googletrans import Translator
 
 def get_image_files():
     """Returns a list of image files from the 'cleaned' directory."""
@@ -30,17 +29,19 @@ def get_image_files():
         print("Error: 'cleaned' directory not found.")
         return []
 
-def translate_text(text, dest_lang):
-    """Translates text to the destination language."""
-    try:
-        translator = Translator()
-        translation = translator.translate(text, dest=dest_lang)
-        return translation.text
-    except Exception as e:
-        return f"Translation error: {e}"
+def translate_with_retry(translator, text, dest_lang, retries=3, delay=2):
+    """Translates text with a retry mechanism."""
+    for attempt in range(retries):
+        try:
+            return translator.translate(text, dest=dest_lang).text
+        except Exception as e:
+            print(f"Translation attempt {attempt + 1} failed for '{text[:20]}...': {e}")
+            if attempt < retries - 1:
+                time.sleep(delay)
+            else:
+                return f"Translation failed after {retries} attempts."
 
 def get_corrected_products(products, image_files):
-    # (This function remains the same as the previous step)
     corrected_products = []
     for product in products:
         original_name = product.get('name', 'No name')
@@ -59,7 +60,6 @@ def get_corrected_products(products, image_files):
     return corrected_products
 
 def group_products(corrected_products):
-    # (This function remains the same as the previous step)
     product_groups = {}
     for p in corrected_products:
         name = p['new_name_fa']
@@ -74,46 +74,57 @@ def group_products(corrected_products):
             product_groups[name] = [p]
     return product_groups
 
-if __name__ == "__main__":
+def main():
     products = analyze_products()
     image_files = get_image_files()
     final_products = []
 
-    if products and image_files:
-        corrected_products = get_corrected_products(products, image_files)
-        product_groups = group_products(corrected_products)
+    if not products or not image_files:
+        print("Could not load products or image files. Exiting.")
+        return
 
-        for group_name, items in product_groups.items():
-            main_item = items[0]
+    corrected_products = get_corrected_products(products, image_files)
+    product_groups = group_products(corrected_products)
 
-            # Translations
-            name_fa = main_item['new_name_fa']
-            brand = main_item['new_brand']
-            desc_fa = f"محصول {name_fa} از برند {brand}."
-            name_en = translate_text(name_fa, 'en')
-            name_de = translate_text(name_fa, 'de')
-            desc_en = translate_text(desc_fa, 'en')
-            desc_de = translate_text(desc_fa, 'de')
+    # Set to a small number for testing, or len(product_groups) for full processing.
+    PROCESS_LIMIT = len(product_groups)
 
-            # Image URL
-            image_url = f"/images/cleaned/{main_item['image_file']}" if main_item['image_file'] else ""
+    translator = Translator()
 
-            # Duplicates
-            duplicates = [item['original_product']['name'] for item in items[1:]]
+    groups_to_process = list(product_groups.items())[:PROCESS_LIMIT]
 
-            final_product = {
-                "name": {"fa": name_fa, "en": name_en, "de": name_de},
-                "description": {"fa": desc_fa, "en": desc_en, "de": desc_de},
-                "brand": brand,
-                "category": main_item['original_product'].get('category', ""),
-                "images": [image_url],
-                "is_perishable": main_item['original_product'].get('is_perishable', False),
-                "duplicates": duplicates
-            }
-            final_products.append(final_product)
+    for group_name, items in groups_to_process:
+        main_item = items[0]
+
+        name_fa = main_item['new_name_fa']
+        brand = main_item['new_brand']
+        desc_fa = f"محصول {name_fa} از برند {brand}."
+
+        name_en = translate_with_retry(translator, name_fa, 'en')
+        name_de = translate_with_retry(translator, name_fa, 'de')
+        desc_en = translate_with_retry(translator, desc_fa, 'en')
+        desc_de = translate_with_retry(translator, desc_fa, 'de')
+
+        image_url = f"/images/cleaned/{main_item['image_file']}" if main_item['image_file'] else ""
+        duplicates = [item['original_product']['name'] for item in items[1:]]
+
+        final_product = {
+            "name": {"fa": name_fa, "en": name_en, "de": name_de},
+            "description": {"fa": desc_fa, "en": desc_en, "de": desc_de},
+            "brand": brand,
+            "category": main_item['original_product'].get('category', ""),
+            "images": [image_url],
+            "is_perishable": main_item['original_product'].get('is_perishable', False),
+            "duplicates": duplicates
+        }
+        final_products.append(final_product)
 
     # Write the final JSON data to a file
-    with open('products_cleaned.json', 'w', encoding='utf-8') as f:
+    output_filename = 'products_cleaned.json'
+    with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(final_products, f, indent=4, ensure_ascii=False)
 
-    print("Cleaned product data has been saved to products_cleaned.json")
+    print(f"Cleaned product data has been saved to {output_filename}")
+
+if __name__ == "__main__":
+    main()
