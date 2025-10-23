@@ -2,7 +2,6 @@ import json
 import os
 import time
 from thefuzz import process
-from googletrans import Translator
 
 def analyze_products():
     """
@@ -28,18 +27,6 @@ def get_image_files():
     except FileNotFoundError:
         print("Error: 'cleaned' directory not found.")
         return []
-
-def translate_with_retry(translator, text, dest_lang, retries=3, delay=2):
-    """Translates text with a retry mechanism."""
-    for attempt in range(retries):
-        try:
-            return translator.translate(text, dest=dest_lang).text
-        except Exception as e:
-            print(f"Translation attempt {attempt + 1} failed for '{text[:20]}...': {e}")
-            if attempt < retries - 1:
-                time.sleep(delay)
-            else:
-                return f"Translation failed after {retries} attempts."
 
 def get_corrected_products(products, image_files):
     corrected_products = []
@@ -86,31 +73,19 @@ def main():
     corrected_products = get_corrected_products(products, image_files)
     product_groups = group_products(corrected_products)
 
-    # Set to a small number for testing, or len(product_groups) for full processing.
-    PROCESS_LIMIT = len(product_groups)
-
-    translator = Translator()
-
-    groups_to_process = list(product_groups.items())[:PROCESS_LIMIT]
-
-    for group_name, items in groups_to_process:
+    for group_name, items in product_groups.items():
         main_item = items[0]
 
         name_fa = main_item['new_name_fa']
         brand = main_item['new_brand']
         desc_fa = f"محصول {name_fa} از برند {brand}."
 
-        name_en = translate_with_retry(translator, name_fa, 'en')
-        name_de = translate_with_retry(translator, name_fa, 'de')
-        desc_en = translate_with_retry(translator, desc_fa, 'en')
-        desc_de = translate_with_retry(translator, desc_fa, 'de')
-
         image_url = f"/images/cleaned/{main_item['image_file']}" if main_item['image_file'] else ""
         duplicates = [item['original_product']['name'] for item in items[1:]]
 
         final_product = {
-            "name": {"fa": name_fa, "en": name_en, "de": name_de},
-            "description": {"fa": desc_fa, "en": desc_en, "de": desc_de},
+            "name": name_fa,
+            "description": desc_fa,
             "brand": brand,
             "category": main_item['original_product'].get('category', ""),
             "images": [image_url],
